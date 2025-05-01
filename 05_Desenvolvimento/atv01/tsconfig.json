@@ -20,15 +20,15 @@
     // // Modo estrito (inclui outras opções)
     // "strict": true,
     // // [strict] É necessario indicar o tipo de dado dos que não são inferidos
-    // "noImplicitAny": true,
+    "noImplicitAny": true,
     // // [strict] Adiciona "use strict" ao JavaScript
-    // "alwaysStrict": true,
+    "alwaysStrict": true,
     // // [strict] Verifica a possibilidade do dado ser null | undefined
-    // "strictNullChecks": true,
+    "strictNullChecks": true,
     // // [strict] Necessário declarar o this
-    // "noImplicitThis": true,
+    "noImplicitThis": true,
     // // Indica a possibilidade de retorno undefined
-    // "noImplicitReturns": true,
+    "noImplicitReturns": true,
     // // Indica parâmetros e variáveis que não foram utilizados
     // "noUnusedLocals": true,
     // "noUnusedParameters": true,
@@ -38,6 +38,6 @@
   // Compila o que estiver na pasta src
   // "include": ["src"],
   // Não compila o que estiver na pasta node_modules
-  // "exclude": ["node_modules"]
+  "exclude": ["node_modules"]
 }
 
